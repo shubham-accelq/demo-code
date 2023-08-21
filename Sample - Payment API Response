@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "paymentId": "123456789",
+  "timestamp": "2023-04-10T11:45:00Z",
+  "message": "Payment successful. Transaction completed.",
+  "errorCode": null,
+  "user": {
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "age": 32,
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345"
+    }
+  },
+  "items": [
+    {
+      "name": "Bottle",
+      "price": 24.99,
+      "quantity": 3
+    },
+    {
+      "name": "Belt",
+      "price": 9.99,
+      "quantity": 1
+    }
+  ],
+  "isRefundable": true
+}
